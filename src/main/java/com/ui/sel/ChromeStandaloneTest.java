@@ -18,12 +18,8 @@ public class ChromeStandaloneTest {
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.addArguments("disable-infobars");
 		chromeOptions.setAcceptInsecureCerts(true);
-		chromeOptions.setUnhandledPromptBehaviour(UnexpectedAlertBehaviour.ACCEPT);
-
-		
-
+		chromeOptions.setUnhandledPromptBehaviour(UnexpectedAlertBehaviour.ACCEPT);	
 		r_driver = new RemoteWebDriver(new URL(remote_url_chrome), chromeOptions);
-
 		r_driver.get("https://www.google.com/");
 		System.out.println(r_driver.getTitle());
 
