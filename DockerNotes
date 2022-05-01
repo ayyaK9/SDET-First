@@ -1,0 +1,35 @@
+ Docker is a computer programme that performs os level virtualization
+ 
+ Docker is an containerization platform 
+ we need to package all the pre reqs like java,chrome, sel standalone in to a container and ship in to any number of machines
+ Create and run testcases using containers
+ 
+ Container is like a new operating system
+ 
+ IMAGE:
+ 
+ Light wieght standalone executable package of software that includes everything needed to run automation
+ 
+ Container should contains:
+ JAVA, Sel jars, Chrome browser
+ 
+ Alone container fails run =ning since it doesnot have pre reqs so we will create one image which contains packed pre req
+ 
+ 
+ Deploy image in to a container
+ 
+ 
+ Container is an run time instance of an image
+ 
+ Class>> Image  ||| Object>>container
+ 
+ 
+ DOCKER FILE:
+ Instructions will be written in docker file >> to build docker image.
+ 
+ Virtualization means creating a guest operating system in a host OS
+ 
+ All the resources will be shared from host automatically as per need based unlike hypervisor (dynamic allocation)
+ 
+ DOCKER HUB:
+ to pull the image from client 
