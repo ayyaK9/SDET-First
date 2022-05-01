@@ -40,24 +40,30 @@ public class JSONConverter {
 		JSONObject jsonobj = new JSONObject();
 		
 		
-		JsonArray arr = new JsonArray();
-		Gson gson = new Gson();
+		/*
+		 * JsonArray arr = new JsonArray(); Gson gson = new Gson();
+		 * 
+		 * for (int i = 0; i < all_customerDetails.size(); i++) { String jsonString =
+		 * gson.toJson(all_customerDetails.get(i)); arr.add(jsonString); }
+		 */
 		
-		for (int i = 0; i < all_customerDetails.size(); i++) {
-			String jsonString = gson.toJson(all_customerDetails.get(i));
-			arr.add(jsonString);
-		}
-		jsonobj.put("data", arr);
 		
-		String unescaped = StringEscapeUtils.unescapeJson(jsonobj.toString());
-		String formatted = unescaped.replace("\"{", "{");
-		String last = formatted.replace("}\"", "}");
-		System.out.println(last);
+		jsonobj.put("data", all_customerDetails);
 		
-		FileWriter file = new FileWriter("/Users/ayyappa/eclipse-workspace/RoadMapToSDET_Udemy/src/main/resources/All-CustomerDetail_Customers.JSON");
-        file.write(last);
-        file.close();
-		}
+		/*
+		 * String unescaped = StringEscapeUtils.unescapeJson(jsonobj.toString()); String
+		 * formatted = unescaped.replace("\"{", "{"); String last =
+		 * formatted.replace("}\"", "}"); System.out.println(last);
+		 * 
+		 * FileWriter file = new FileWriter(
+		 * "/Users/ayyappa/eclipse-workspace/RoadMapToSDET_Udemy/src/main/resources/All-CustomerDetail_Customers.JSON"
+		 * ); file.write(last); file.close();
+		 */
+		
+		object_map.writeValue(new File(
+				"/Users/ayyappa/eclipse-workspace/RoadMapToSDET_Udemy/src/main/resources/All_CustomerDetail.JSON"),
+				jsonobj);
+	}
 	
 	
 	public void getCustomerDetails(String fileName) throws IOException
