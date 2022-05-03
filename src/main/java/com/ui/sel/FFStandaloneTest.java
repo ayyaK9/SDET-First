@@ -10,7 +10,7 @@ public class FFStandaloneTest {
 	public static void main(String[] args) throws MalformedURLException {
 		RemoteWebDriver r_driver;
 
-		String remote_url_ff = "http://localhost:4445/wd/hub";
+		String remote_url_ff = "http://localhost:4444/wd/hub";
 
 		FirefoxOptions options = new FirefoxOptions();
 
