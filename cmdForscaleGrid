@@ -1,2 +1,2 @@
 cd /Users/ayyappa/eclipse-workspace/RoadMapToSDET_Udemy
-docker-compose -f docker-compose.yaml up
+docker-compose scale chrome=5
