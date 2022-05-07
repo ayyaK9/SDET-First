@@ -1,0 +1,2 @@
+cd /Users/ayyappa/eclipse-workspace/RoadMapToSDET_Udemy
+docker-compose -f docker-compose.yaml up >>dockerGridLog.txt

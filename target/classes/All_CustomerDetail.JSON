@@ -1,1 +1,22 @@
-{"data":[{"courseName":"Appium2","purchasedDate":"2022-05-01","amount":99,"location":"Asia"},{"courseName":"WebServices2","purchasedDate":"2022-05-01","amount":21,"location":"Asia"},{"courseName":"RestAPI2","purchasedDate":"2022-05-01","amount":50,"location":"Asia"}]}
+{
+  "data": [
+    {
+      "courseName": "Appium2",
+      "purchasedDate": "2022-05-01",
+      "amount": 99,
+      "location": "Asia"
+    },
+    {
+      "courseName": "WebServices2",
+      "purchasedDate": "2022-05-01",
+      "amount": 21,
+      "location": "Asia"
+    },
+    {
+      "courseName": "RestAPI2",
+      "purchasedDate": "2022-05-01",
+      "amount": 50,
+      "location": "Asia"
+    }
+  ]
+}
