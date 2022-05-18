@@ -6,6 +6,7 @@
   <class name="com.ui.sel.ChromeGrid1"/>
   <class name="com.ui.sel.ChromeGrid2"/>
   <class name="com.ui.sel.ChromeGrid3"/>
+  <class name="com.ui.sel.FFStandaloneTest"/>
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

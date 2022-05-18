@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-03T13:26:29 IST" name="Suite" finished-at="2022-05-03T13:26:58 IST" duration-ms="28477">
+  <suite started-at="2022-05-07T12:56:25 IST" name="Suite" finished-at="2022-05-07T12:58:07 IST" duration-ms="102557">
     <groups>
     </groups>
-    <test started-at="2022-05-03T13:26:29 IST" name="Test" finished-at="2022-05-03T13:26:58 IST" duration-ms="28477">
+    <test started-at="2022-05-07T12:56:25 IST" name="Test" finished-at="2022-05-07T12:58:07 IST" duration-ms="102557">
       <class name="com.ui.sel.ChromeGrid1">
-        <test-method signature="Test1()[pri:0, instance:com.ui.sel.ChromeGrid1@6293abcc]" started-at="2022-05-03T13:26:29 IST" name="Test1" finished-at="2022-05-03T13:26:58 IST" duration-ms="28390" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:com.ui.sel.ChromeGrid1@184cf7cf]" started-at="2022-05-07T12:56:25 IST" name="BeforeTest" finished-at="2022-05-07T12:57:19 IST" duration-ms="54328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="Test1()[pri:0, instance:com.ui.sel.ChromeGrid1@184cf7cf]" started-at="2022-05-07T12:57:19 IST" name="Test1" finished-at="2022-05-07T12:57:49 IST" duration-ms="29667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:com.ui.sel.ChromeGrid1@184cf7cf]" started-at="2022-05-07T12:58:02 IST" name="AfterTest" finished-at="2022-05-07T12:58:07 IST" duration-ms="5044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
       </class> <!-- com.ui.sel.ChromeGrid1 -->
       <class name="com.ui.sel.ChromeGrid2">
-        <test-method signature="Test2()[pri:0, instance:com.ui.sel.ChromeGrid2@7995092a]" started-at="2022-05-03T13:26:29 IST" name="Test2" finished-at="2022-05-03T13:26:55 IST" duration-ms="25696" status="PASS">
+        <test-method signature="Test2()[pri:0, instance:com.ui.sel.ChromeGrid2@2fd6b6c7]" started-at="2022-05-07T12:57:19 IST" name="Test2" finished-at="2022-05-07T12:57:55 IST" duration-ms="35922" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
       </class> <!-- com.ui.sel.ChromeGrid2 -->
+      <class name="com.ui.sel.FFStandaloneTest">
+        <test-method signature="FFTest()[pri:0, instance:com.ui.sel.FFStandaloneTest@5db250b4]" started-at="2022-05-07T12:57:19 IST" name="FFTest" finished-at="2022-05-07T12:58:02 IST" duration-ms="43109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FFTest -->
+      </class> <!-- com.ui.sel.FFStandaloneTest -->
       <class name="com.ui.sel.ChromeGrid3">
-        <test-method signature="Test3()[pri:0, instance:com.ui.sel.ChromeGrid3@7fc2413d]" started-at="2022-05-03T13:26:29 IST" name="Test3" finished-at="2022-05-03T13:26:50 IST" duration-ms="20237" status="PASS">
+        <test-method signature="Test3()[pri:0, instance:com.ui.sel.ChromeGrid3@5bfa9431]" started-at="2022-05-07T12:57:19 IST" name="Test3" finished-at="2022-05-07T12:57:41 IST" duration-ms="22338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
